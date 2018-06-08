@@ -20,7 +20,8 @@ app.get("/public/*",
     res.sendFile(__dirname + req.originalUrl);
   }
 );
-
+   
+// test me
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public/resources/images', 'nodejs.ico')));
 app.use(logger('dev'));
